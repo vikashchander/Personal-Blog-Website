@@ -1,0 +1,42 @@
+.grid-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(30px, auto);
+    gap: 6px;
+    grid-template-areas:
+    "nav nav"
+    "top-post top-post "
+    "newsletter newsletter"
+    "post-1 post-2"
+    "post-3 post-4"
+    "post-5 post-4"
+    "footer footer";
+}
+
+.nav-container{
+    background: grey;
+    grid-area: nav;
+    border: 4px solid black;
+    display: flex;
+    height: 60px;
+
+}
+
+.nav-items{
+    margin: 1rem;
+}
+.items-right{
+   float: right;  
+   margin: 1rem;
+}
+
+.main-content{
+    grid-area: top-post;
+    background: grey;
+    border: 5px solid black;
+}
+.footer{
+    grid-area: footer;
+    background: grey;
+    border: 5px solid black;
+}
