@@ -1,0 +1,27 @@
+.main-content{
+    grid-area: top-post;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.main-card{
+    max-width: 50rem;
+    border-right: 5px solid blue;
+    align-content: flex-start;
+    flex-flow: row wrap;
+    margin-left: 12rem ;
+    padding: 5rem;
+}
+
+#newsletter{
+    max-width: 50rem;
+    border-left: 5px solid blue;
+    align-items:center;
+    align-content: flex-start;
+    flex-flow: row wrap; 
+    padding: 5rem;   
+}
+
+.newsletter-container{
+    display: flex;
+}
