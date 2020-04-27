@@ -4,22 +4,36 @@
     flex-flow: row wrap;
 }
 
-.main-card{
-    max-width: 50rem;
-    border-right: 5px solid blue;
-    align-content: flex-start;
-    flex-flow: row wrap;
-    margin-left: 12rem ;
-    padding: 5rem;
+.blog-card{
+    flex: 3 4 auto;
+    align-self: flex-start ;
+    margin: auto;
+    max-width: 35rem;
+    border:3px solid blue;
+    padding: 3rem;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 8px 6px -6px blue;
 }
 
+.blog-img{
+    display: block; 
+    overflow: hidden;
+    object-fit: fill;
+     background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.blog-body{
+
+}
 #newsletter{
     max-width: 50rem;
     border-left: 5px solid blue;
     align-items:center;
     align-content: flex-start;
     flex-flow: row wrap; 
-    padding: 5rem;   
+    padding: 3rem;   
 }
 
 .newsletter-container{
