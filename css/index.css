@@ -51,9 +51,12 @@ header {
   margin-right: auto;
   color: white;
   list-style: none;
+  text-decoration: none;
 }
 
 .logo:hover {
+  text-decoration: none;
+  list-style: none;
   margin-right: auto;
   list-style: none;
   color: #0088a9;
