@@ -11,23 +11,32 @@ html, body {
 }
 
 
-section>a {
-    background:
-       linear-gradient(
-         to bottom, var(--mainColor) 0%,
-         var(--mainColor) 100%
-       );
-      background-position: 0 100%;
-      background-repeat: repeat-x;
-      background-size: 4px 4px;
-    color: #000;
+section>button {
+  
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
     text-decoration: none;
-    transition: background-size .5s;
+    font-size: inherit;
+    font-family: inherit;
+  }
+  button.learn-more {
+   transition :all, 0.5s, cubic-bezier(0.65,-0.25,0.25,1.95);
+    font-weight: 900;
+    color: black;
+    padding: 0.5rem 0.5rem;
+    border-radius: 3rem;
+    background:#3498DB;
+    text-transform: uppercase;
+  }
+  button:hover, button:focus,button:active {
+    letter-spacing: 0.1rem;
   }
   
-  a:hover {
-    background-size: 4px 50px;
-  }
+ 
 .grid-container{
     min-height: 100%;
     display:grid;
@@ -51,6 +60,7 @@ section>a {
 .card{
     flex: 3 4 auto;
     margin: 0.5rem 3rem 1rem 4rem;
+    text-transform: capitalize;
     max-width: 22rem;
     border: 2px solid #3498DB;
     border-radius: 8px;
@@ -66,6 +76,9 @@ section>a {
         transform: translateX(-3px);
         border: 2px solid #2980B9;
 }
+.img-caption{
+  text-align: center;
+}
 
 .card-img{
   display: block; 
@@ -80,6 +93,10 @@ section>a {
 .card-body{
     padding: 1rem;
    
+}
+
+.card-author{
+  text-decoration: underline;
 }
 
 .card-date{

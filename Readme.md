@@ -2,7 +2,7 @@
 
 ## Check This App
 
-You can check this app at :[Personal Blog Website](https://zen-mayer-d8974a.netlify.app/blog.html)
+You can check this app at :[Personal Blog Website](https://zen-mayer-d8974a.netlify.app/home.html)
 
 ## Check This Website Rubrics 
 
