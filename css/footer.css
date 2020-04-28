@@ -1,0 +1,10 @@
+.footer{
+    text-transform: capitalize;
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+    text-align: center;
+    grid-area: footer;
+    color: whitesmoke;
+    background: #5B5EA6;
+}

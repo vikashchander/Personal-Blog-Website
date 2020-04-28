@@ -1,3 +1,4 @@
+
 :root {
     --mainColor: #95a5a6;
   }
@@ -38,62 +39,13 @@ section>a {
     "top-post top-post "
     "footer footer";
 }
-header {
-  display: flex;
-  grid-area: nav;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 5px;
-  background: #5B5EA6;
-}
-
-.logo {
-  margin-right: auto;
-  color: white;
-  list-style: none;
-  text-decoration: none;
-}
-
-.logo:hover {
-  text-decoration: none;
-  list-style: none;
-  margin-right: auto;
-  list-style: none;
-  color: #0088a9;
-}
-
-.nav__links {
-  list-style: none;
-  display: flex;
-}
-
-.nav__links a,
-.cta,
-.overlay__content a {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  color: #edf0f1;
-  text-decoration: none;
-}
-
-.nav__links li {
-  padding: 3px 14px;
-}
-
-.nav__links li a {
-  transition: all 0.3s ease 0s;
-}
-
-.nav__links li a:hover {
-  color: #0088a9;
-}
 
 
 .main-content{
     grid-area: top-post;
     display: flex;
     flex-flow: row wrap;
-    
+    margin-bottom: 5rem;
 }
 
 .card{
@@ -134,10 +86,13 @@ header {
   float: right;
 }
 
-.footer{
-    text-transform: capitalize;
-    text-align: center;
-    grid-area: footer;
-    color: whitesmoke;
-    background: #5B5EA6;
+@media (min-width: 768px) {
+  .card{
+   margin-left: 12rem;
+    max-width: 22rem;
+    border: 2px solid #3498DB;
+    border-radius: 8px;
+    box-shadow: 1px 8px 6px -6px #3498DB;
+}
+
 }

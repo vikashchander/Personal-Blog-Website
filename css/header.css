@@ -1,0 +1,51 @@
+
+header {
+    display: flex;
+    grid-area: nav;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+    background: #5B5EA6;
+  }
+  
+  .logo {
+    margin-right: auto;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .logo:hover {
+    text-decoration: none;
+    list-style: none;
+    margin-right: auto;
+    list-style: none;
+    color: #0088a9;
+  }
+  
+  .nav__links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav__links a,
+  .cta,
+  .overlay__content a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  
+  .nav__links li {
+    padding: 3px 14px;
+  }
+  
+  .nav__links li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: #0088a9;
+  }
+  
